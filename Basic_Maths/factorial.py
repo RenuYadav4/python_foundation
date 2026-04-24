@@ -8,7 +8,7 @@ def iterative_fact(n):
     return fact
 
 def recursive_fact(n):
-    if n==1 or n==1:
+    if n==1 or n==0:
         return 1
     return n*recursive_fact(n-1)
 
