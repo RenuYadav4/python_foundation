@@ -22,4 +22,8 @@ class Car:
     def model(self):
         return self.__model
 
+my_car = Car("Tata","Safari")
+my_car.model = "City"   #model can not be overwritten
+Car("Tata","Nexon")
 
+print(my_car.model); #method model is now accessible as property

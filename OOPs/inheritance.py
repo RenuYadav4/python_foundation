@@ -11,15 +11,6 @@ class Car:
         # formatted string
         return f"{self.brand} {self.model}"
 
-
-# creating an instance of Car()
-
-# my_car= Car("Toyota","Corolla")
-# print(my_car.brand)
-# print(my_car.model)
-
-# print(my_car.full_name())
-
 #  Question : Create an ElectricCar class that inherits from the Car class and has an additional attribute
 # ElectricCar is now inherting from Car
 class ElectricCar(Car):
