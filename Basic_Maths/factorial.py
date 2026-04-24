@@ -14,5 +14,3 @@ def recursive_fact(n):
 
 print("iterative",iterative_fact(5))
 print("recursive",recursive_fact(5))
-
-
